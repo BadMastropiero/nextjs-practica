@@ -9,11 +9,7 @@ export default function Contador() {
   };
 
   const decrementar = () => {
-    if(contador > 0)
-    {
-      setContador(contador - 1);
-    }
-   
+    setContador(contador - 1);
   };
 
   return (
