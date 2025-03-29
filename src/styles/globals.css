@@ -40,3 +40,18 @@ a {
     color-scheme: dark;
   }
 }
+
+
+.trash-icon {
+  font-size: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;  
+}
+
+
+.trash-icon:hover {
+  background: red;  
+  transform: scale(1.2);  
+}
